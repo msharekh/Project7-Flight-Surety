@@ -2714,12 +2714,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xc2EAE7941fEda3A9b9359Cf2E56fd98Dd13EB85F",
-      "transactionHash": "0xf0cfd4c2f1167bacf2c5fc836ff7c3908d69c915b4ec811903c512fba171dde3"
+      "address": "0xb8D9F6e4ED8a8f8d673EF71735B78b07B7715dca",
+      "transactionHash": "0x9bc82974d93f0dbfa4fe7ddd5804877b55ab5f5dad5657f4d81c5deb7d5e57ac"
     }
   },
   "schemaVersion": "3.0.6",
-  "updatedAt": "2019-04-26T22:07:10.750Z",
+  "updatedAt": "2019-04-26T22:46:04.015Z",
   "devdoc": {
     "methods": {
       "buy()": {
@@ -2748,9 +2748,6 @@
   },
   "userdoc": {
     "methods": {
-      "authorizeCaller()": {
-        "notice": "*****************************************************************************************"
-      },
       "authorizeCaller(address)": {
         "notice": "*****************************************************************************************"
       }
