@@ -1,0 +1,13 @@
+Flight Surety Project
+
+Project Requirements
+There are five main requirements for the project:
+	•	Separation of Concerns
+	•	Airlines
+	•	Passengers
+	•	Oracles
+	•	General
+	•	
+	 
+
+authorizeCaller
