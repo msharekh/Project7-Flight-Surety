@@ -93,6 +93,14 @@ contract FlightSuretyData {
     /*                                     SMART CONTRACT FUNCTIONS                             */
     /********************************************************************************************/
 
+    function authorizeCaller
+                            (
+                                address flightSuretyAppAddress
+                            ) 
+                            external
+     {
+        // operational = mode;
+    }
    /**
     * @dev Add an airline to the registration queue
     *      Can only be called from FlightSuretyApp contract
