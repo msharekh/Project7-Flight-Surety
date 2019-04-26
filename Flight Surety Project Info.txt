@@ -11,3 +11,13 @@ There are five main requirements for the project:
 	 
 
 authorizeCaller
+
+https://review.udacity.com/#!/rubrics/1711/view
+
+https://study-hall.udacity.com/rooms/community:nd1309:562321-project-564?contextType=room
+
+https://github.com/msharekh/Project7-Flight-Surety
+
+https://github.com/udacity/FlightSurety
+
+https://udacity.github.io/git-styleguide/
