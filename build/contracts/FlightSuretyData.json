@@ -5,7 +5,8 @@
       "inputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "constructor"
+      "type": "constructor",
+      "signature": "constructor"
     },
     {
       "payable": true,
@@ -24,7 +25,8 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0xcd905dff"
     },
     {
       "constant": false,
@@ -38,7 +40,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0x110466ed"
     },
     {
       "constant": true,
@@ -47,7 +50,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "pure",
-      "type": "function"
+      "type": "function",
+      "signature": "0x63e29a3f"
     },
     {
       "constant": false,
@@ -56,7 +60,8 @@
       "outputs": [],
       "payable": true,
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "signature": "0xa6f2ae3a"
     },
     {
       "constant": true,
@@ -65,7 +70,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "pure",
-      "type": "function"
+      "type": "function",
+      "signature": "0x36cee484"
     },
     {
       "constant": true,
@@ -74,7 +80,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "pure",
-      "type": "function"
+      "type": "function",
+      "signature": "0x1b9265b8"
     },
     {
       "constant": false,
@@ -83,17 +90,19 @@
       "outputs": [],
       "payable": true,
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "signature": "0xb60d4288"
     }
   ],
-  "bytecode": "0x60806040526001600060146101000a81548160ff02191690831515021790555034801561002b57600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506102718061007b6000396000f300608060405260043610610083576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063110466ed1461008d5780631b9265b8146100bc57806336cee484146100d357806363e29a3f146100ea578063a6f2ae3a14610101578063b60d42881461010b578063cd905dff14610115575b61008b610144565b005b34801561009957600080fd5b506100ba600480360381019080803515159060200190929190505050610146565b005b3480156100c857600080fd5b506100d1610227565b005b3480156100df57600080fd5b506100e8610229565b005b3480156100f657600080fd5b506100ff61022b565b005b61010961022d565b005b610113610144565b005b34801561012157600080fd5b5061012a61022f565b604051808215151515815260200191505060405180910390f35b565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561020a576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601c8152602001807f43616c6c6572206973206e6f7420636f6e7472616374206f776e65720000000081525060200191505060405180910390fd5b80600060146101000a81548160ff02191690831515021790555050565b565b565b565b565b60008060149054906101000a900460ff169050905600a165627a7a723058203cf5ee2e59cc26eb21e5d85b2b928cb9cc10897f43b63ced10f40c260d47a95a0029",
-  "deployedBytecode": "0x608060405260043610610083576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063110466ed1461008d5780631b9265b8146100bc57806336cee484146100d357806363e29a3f146100ea578063a6f2ae3a14610101578063b60d42881461010b578063cd905dff14610115575b61008b610144565b005b34801561009957600080fd5b506100ba600480360381019080803515159060200190929190505050610146565b005b3480156100c857600080fd5b506100d1610227565b005b3480156100df57600080fd5b506100e8610229565b005b3480156100f657600080fd5b506100ff61022b565b005b61010961022d565b005b610113610144565b005b34801561012157600080fd5b5061012a61022f565b604051808215151515815260200191505060405180910390f35b565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561020a576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601c8152602001807f43616c6c6572206973206e6f7420636f6e7472616374206f776e65720000000081525060200191505060405180910390fd5b80600060146101000a81548160ff02191690831515021790555050565b565b565b565b565b60008060149054906101000a900460ff169050905600a165627a7a723058203cf5ee2e59cc26eb21e5d85b2b928cb9cc10897f43b63ced10f40c260d47a95a0029",
+  "metadata": "{\"compiler\":{\"version\":\"0.4.25+commit.59dbf8f1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"mode\",\"type\":\"bool\"}],\"name\":\"setOperatingStatus\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"pay\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"creditInsurees\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"registerAirline\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"buy\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"fund\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"isOperational\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"fallback\"}],\"devdoc\":{\"methods\":{\"buy()\":{\"details\":\"Buy insurance for a flight    \"},\"creditInsurees()\":{\"details\":\"Credits payouts to insurees\"},\"fund()\":{\"details\":\"Initial funding for the insurance. Unless there are too many delayed flights     resulting in insurance payouts, the contract should be self-sustaining    \"},\"isOperational()\":{\"details\":\"Get operating status of contract\",\"return\":\"A bool that is the current operating status\"},\"pay()\":{\"details\":\"Transfers eligible payout funds to insuree    \"},\"registerAirline()\":{\"details\":\"Add an airline to the registration queue     Can only be called from FlightSuretyApp contract    \"},\"setOperatingStatus(bool)\":{\"details\":\"Sets contract operations on/off    * When operational mode is disabled, all write transactions except for this one will fail\"}}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/msharekh/Google Drive/Blockchain Developer Nanodegree/Term 2/Project7-Flight-Surety/contracts/FlightSuretyData.sol\":\"FlightSuretyData\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/msharekh/Google Drive/Blockchain Developer Nanodegree/Term 2/Project7-Flight-Surety/contracts/FlightSuretyData.sol\":{\"keccak256\":\"0x10774c2fde165d2422018805d9292931ecab04c45092342a909deb6f6fe2d205\",\"urls\":[\"bzzr://6fb8e4dc4f05998ea68077889cc2b0685aff73df95d4078252417118356dcfe0\"]},\"/Users/msharekh/Google Drive/Blockchain Developer Nanodegree/Term 2/Project7-Flight-Surety/node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol\":{\"keccak256\":\"0xa1c5e1d9ebbf654d332ca8e7a5c04a6a6a9d142eeaab3b988c2c909c81a62bef\",\"urls\":[\"bzzr://d062fb4a1b6de1f036ee0e73364a2532c4757eb68e95dd8c5cbb2d17b8732c6a\"]}},\"version\":1}",
+  "bytecode": "0x60806040526001600060146101000a81548160ff02191690831515021790555034801561002b57600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506102718061007b6000396000f300608060405260043610610083576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063110466ed1461008d5780631b9265b8146100bc57806336cee484146100d357806363e29a3f146100ea578063a6f2ae3a14610101578063b60d42881461010b578063cd905dff14610115575b61008b610144565b005b34801561009957600080fd5b506100ba600480360381019080803515159060200190929190505050610146565b005b3480156100c857600080fd5b506100d1610227565b005b3480156100df57600080fd5b506100e8610229565b005b3480156100f657600080fd5b506100ff61022b565b005b61010961022d565b005b610113610144565b005b34801561012157600080fd5b5061012a61022f565b604051808215151515815260200191505060405180910390f35b565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561020a576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601c8152602001807f43616c6c6572206973206e6f7420636f6e7472616374206f776e65720000000081525060200191505060405180910390fd5b80600060146101000a81548160ff02191690831515021790555050565b565b565b565b565b60008060149054906101000a900460ff169050905600a165627a7a72305820167704324dd716f05de1dce00bb66fe54b9f51fdc5ed69c272283bb5fa28afa70029",
+  "deployedBytecode": "0x608060405260043610610083576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063110466ed1461008d5780631b9265b8146100bc57806336cee484146100d357806363e29a3f146100ea578063a6f2ae3a14610101578063b60d42881461010b578063cd905dff14610115575b61008b610144565b005b34801561009957600080fd5b506100ba600480360381019080803515159060200190929190505050610146565b005b3480156100c857600080fd5b506100d1610227565b005b3480156100df57600080fd5b506100e8610229565b005b3480156100f657600080fd5b506100ff61022b565b005b61010961022d565b005b610113610144565b005b34801561012157600080fd5b5061012a61022f565b604051808215151515815260200191505060405180910390f35b565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561020a576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601c8152602001807f43616c6c6572206973206e6f7420636f6e7472616374206f776e65720000000081525060200191505060405180910390fd5b80600060146101000a81548160ff02191690831515021790555050565b565b565b565b565b60008060149054906101000a900460ff169050905600a165627a7a72305820167704324dd716f05de1dce00bb66fe54b9f51fdc5ed69c272283bb5fa28afa70029",
   "sourceMap": "103:5665:1:-;;;600:4;573:31;;;;;;;;;;;;;;;;;;;;1099:168;8:9:-1;5:2;;;30:1;27;20:12;5:2;1099:168:1;1250:10;1234:13;;:26;;;;;;;;;;;;;;;;;;103:5665;;;;;;",
   "deployedSourceMap": "103:5665:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;5751:6;:4;:6::i;:::-;103:5665;3194:257;;8:9:-1;5:2;;;30:1;27;20:12;5:2;3194:257:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;4646:154;;8:9:-1;5:2;;;30:1;27;20:12;5:2;4646:154:1;;;;;;4376:181;;8:9:-1;5:2;;;30:1;27;20:12;5:2;4376:181:1;;;;;;3890:169;;8:9:-1;5:2;;;30:1;27;20:12;5:2;3890:169:1;;;;;;4127:187;;;;;;4999:159;;;;;;2847:178;;8:9:-1;5:2;;;30:1;27;20:12;5:2;2847:178:1;;;;;;;;;;;;;;;;;;;;;;;;;;;4999:159;:::o;3194:257::-;2350:13;;;;;;;;;;;2336:27;;:10;:27;;;2328:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;3440:4;3426:11;;:18;;;;;;;;;;;;;;;;;;3194:257;:::o;4646:154::-;:::o;4376:181::-;:::o;3890:169::-;:::o;4127:187::-;:::o;2847:178::-;2979:4;3007:11;;;;;;;;;;;3000:18;;2847:178;:::o",
   "source": "pragma solidity ^0.4.25;\n\nimport \"../node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol\";\n\ncontract FlightSuretyData {\n    using SafeMath for uint256;\n\n    /********************************************************************************************/\n    /*                                       DATA VARIABLES                                     */\n    /********************************************************************************************/\n\n    address private contractOwner;                                      // Account used to deploy contract\n    bool private operational = true;                                    // Blocks all state changes throughout the contract if false\n\n    /********************************************************************************************/\n    /*                                       EVENT DEFINITIONS                                  */\n    /********************************************************************************************/\n\n\n    /**\n    * @dev Constructor\n    *      The deploying account becomes contractOwner\n    */\n    constructor\n                                (\n                                ) \n                                public \n    {\n        contractOwner = msg.sender;\n    }\n\n    /********************************************************************************************/\n    /*                                       FUNCTION MODIFIERS                                 */\n    /********************************************************************************************/\n\n    // Modifiers help avoid duplication of code. They are typically used to validate something\n    // before a function is allowed to be executed.\n\n    /**\n    * @dev Modifier that requires the \"operational\" boolean variable to be \"true\"\n    *      This is used on all state changing functions to pause the contract in \n    *      the event there is an issue that needs to be fixed\n    */\n    modifier requireIsOperational() \n    {\n        require(operational, \"Contract is currently not operational\");\n        _;  // All modifiers require an \"_\" which indicates where the function body will be added\n    }\n\n    /**\n    * @dev Modifier that requires the \"ContractOwner\" account to be the function caller\n    */\n    modifier requireContractOwner()\n    {\n        require(msg.sender == contractOwner, \"Caller is not contract owner\");\n        _;\n    }\n\n    /********************************************************************************************/\n    /*                                       UTILITY FUNCTIONS                                  */\n    /********************************************************************************************/\n\n    /**\n    * @dev Get operating status of contract\n    *\n    * @return A bool that is the current operating status\n    */      \n    function isOperational() \n                            public \n                            view \n                            returns(bool) \n    {\n        return operational;\n    }\n\n\n    /**\n    * @dev Sets contract operations on/off\n    *\n    * When operational mode is disabled, all write transactions except for this one will fail\n    */    \n    function setOperatingStatus\n                            (\n                                bool mode\n                            ) \n                            external\n                            requireContractOwner \n    {\n        operational = mode;\n    }\n\n    /********************************************************************************************/\n    /*                                     SMART CONTRACT FUNCTIONS                             */\n    /********************************************************************************************/\n\n   /**\n    * @dev Add an airline to the registration queue\n    *      Can only be called from FlightSuretyApp contract\n    *\n    */   \n    function registerAirline\n                            (   \n                            )\n                            external\n                            pure\n    {\n    }\n\n\n   /**\n    * @dev Buy insurance for a flight\n    *\n    */   \n    function buy\n                            (                             \n                            )\n                            external\n                            payable\n    {\n\n    }\n\n    /**\n     *  @dev Credits payouts to insurees\n    */\n    function creditInsurees\n                                (\n                                )\n                                external\n                                pure\n    {\n    }\n    \n\n    /**\n     *  @dev Transfers eligible payout funds to insuree\n     *\n    */\n    function pay\n                            (\n                            )\n                            external\n                            pure\n    {\n    }\n\n   /**\n    * @dev Initial funding for the insurance. Unless there are too many delayed flights\n    *      resulting in insurance payouts, the contract should be self-sustaining\n    *\n    */   \n    function fund\n                            (   \n                            )\n                            public\n                            payable\n    {\n    }\n\n    function getFlightKey\n                        (\n                            address airline,\n                            string memory flight,\n                            uint256 timestamp\n                        )\n                        pure\n                        internal\n                        returns(bytes32) \n    {\n        return keccak256(abi.encodePacked(airline, flight, timestamp));\n    }\n\n    /**\n    * @dev Fallback function for funding smart contract.\n    *\n    */\n    function() \n                            external \n                            payable \n    {\n        fund();\n    }\n\n\n}\n\n",
-  "sourcePath": "/Users/mac/Documents/Development/Blockchain/FlightSurety/Project7-Flight-Surety/contracts/FlightSuretyData.sol",
+  "sourcePath": "/Users/msharekh/Google Drive/Blockchain Developer Nanodegree/Term 2/Project7-Flight-Surety/contracts/FlightSuretyData.sol",
   "ast": {
-    "absolutePath": "/Users/mac/Documents/Development/Blockchain/FlightSurety/Project7-Flight-Surety/contracts/FlightSuretyData.sol",
+    "absolutePath": "/Users/msharekh/Google Drive/Blockchain Developer Nanodegree/Term 2/Project7-Flight-Surety/contracts/FlightSuretyData.sol",
     "exportedSymbols": {
       "FlightSuretyData": [
         645
@@ -114,7 +123,7 @@
         "src": "0:24:1"
       },
       {
-        "absolutePath": "/Users/mac/Documents/Development/Blockchain/FlightSurety/Project7-Flight-Surety/node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol",
+        "absolutePath": "/Users/msharekh/Google Drive/Blockchain Developer Nanodegree/Term 2/Project7-Flight-Surety/node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol",
         "file": "../node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol",
         "id": 538,
         "nodeType": "ImportDirective",
@@ -1327,7 +1336,7 @@
     "src": "0:5770:1"
   },
   "legacyAST": {
-    "absolutePath": "/Users/mac/Documents/Development/Blockchain/FlightSurety/Project7-Flight-Surety/contracts/FlightSuretyData.sol",
+    "absolutePath": "/Users/msharekh/Google Drive/Blockchain Developer Nanodegree/Term 2/Project7-Flight-Surety/contracts/FlightSuretyData.sol",
     "exportedSymbols": {
       "FlightSuretyData": [
         645
@@ -1348,7 +1357,7 @@
         "src": "0:24:1"
       },
       {
-        "absolutePath": "/Users/mac/Documents/Development/Blockchain/FlightSurety/Project7-Flight-Surety/node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol",
+        "absolutePath": "/Users/msharekh/Google Drive/Blockchain Developer Nanodegree/Term 2/Project7-Flight-Surety/node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol",
         "file": "../node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol",
         "id": 538,
         "nodeType": "ImportDirective",
@@ -2568,10 +2577,39 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xc301103332eb9fa54ffc2a2507a796e1b70894aa",
-      "transactionHash": "0x0a5f924b3ddf30356c8630cee47a141a9b42858472c9dc847fb3597257c755ab"
+      "address": "0xb8D9F6e4ED8a8f8d673EF71735B78b07B7715dca",
+      "transactionHash": "0x11147fba61e79caf6e3a2f2a99ea717cc56d7b0f5cf752949351c09a9e631aec"
     }
   },
-  "schemaVersion": "2.0.2",
-  "updatedAt": "2019-04-26T18:52:11.515Z"
+  "schemaVersion": "3.0.6",
+  "updatedAt": "2019-04-26T21:45:05.312Z",
+  "devdoc": {
+    "methods": {
+      "buy()": {
+        "details": "Buy insurance for a flight    "
+      },
+      "creditInsurees()": {
+        "details": "Credits payouts to insurees"
+      },
+      "fund()": {
+        "details": "Initial funding for the insurance. Unless there are too many delayed flights     resulting in insurance payouts, the contract should be self-sustaining    "
+      },
+      "isOperational()": {
+        "details": "Get operating status of contract",
+        "return": "A bool that is the current operating status"
+      },
+      "pay()": {
+        "details": "Transfers eligible payout funds to insuree    "
+      },
+      "registerAirline()": {
+        "details": "Add an airline to the registration queue     Can only be called from FlightSuretyApp contract    "
+      },
+      "setOperatingStatus(bool)": {
+        "details": "Sets contract operations on/off    * When operational mode is disabled, all write transactions except for this one will fail"
+      }
+    }
+  },
+  "userdoc": {
+    "methods": {}
+  }
 }

@@ -21,3 +21,34 @@ https://github.com/msharekh/Project7-Flight-Surety
 https://github.com/udacity/FlightSurety
 
 https://udacity.github.io/git-styleguide/
+
+
+npm list --depth 0
+
+truffle compile
+
+	npm install 
+	truffle compile
+
+Develop Client
+To run truffle tests:
+
+truffle test ./test/flightSurety.js 
+truffle test ./test/oracles.js
+
+To use the dapp:
+
+truffle migrate 
+npm run dapp
+
+To view dapp:
+
+http://localhost:8000
+
+Develop Server
+npm run server truffle test ./test/oracles.js
+
+Deploy
+To build dapp for prod: npm run dapp:prod
+
+Deploy the contents of the ./dapp folder
