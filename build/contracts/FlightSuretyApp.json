@@ -14662,12 +14662,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x61bD68129e4062DD77e7E6ffBae5Fbb9B7E7C3C5",
-      "transactionHash": "0x0b5856108b05734b14fcbf490aa3f3ba66eff0ba71f21dee0691e5bd673416d5"
+      "address": "0x3A56B74A5b672A842e621D6CDee3dBbCf24fFa94",
+      "transactionHash": "0x3a321892e674855c93f0cf670067f1340464908309adb19dba3be4163c19dbc9"
     }
   },
   "schemaVersion": "3.0.6",
-  "updatedAt": "2019-04-26T21:54:25.842Z",
+  "updatedAt": "2019-04-26T22:07:10.739Z",
   "devdoc": {
     "methods": {
       "registerAirline()": {

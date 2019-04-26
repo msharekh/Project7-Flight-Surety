@@ -56,7 +56,7 @@
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function",
-      "signature": "0xe8b695a2"
+      "signature": "0x2c388d5d"
     },
     {
       "constant": true,
@@ -2714,12 +2714,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xb8D9F6e4ED8a8f8d673EF71735B78b07B7715dca",
-      "transactionHash": "0x3d3c042d10b1d29b38c099aae3bab85f41a9ccc749543cbd63c883c65957c6d3"
+      "address": "0xc2EAE7941fEda3A9b9359Cf2E56fd98Dd13EB85F",
+      "transactionHash": "0xf0cfd4c2f1167bacf2c5fc836ff7c3908d69c915b4ec811903c512fba171dde3"
     }
   },
   "schemaVersion": "3.0.6",
-  "updatedAt": "2019-04-26T21:57:09.362Z",
+  "updatedAt": "2019-04-26T22:07:10.750Z",
   "devdoc": {
     "methods": {
       "buy()": {
