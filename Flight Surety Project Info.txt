@@ -22,6 +22,9 @@ https://github.com/udacity/FlightSurety
 
 https://udacity.github.io/git-styleguide/
 
+https://classroom.udacity.com/nanodegrees/nd1309/parts/88562bea-c040-4082-b298-27362bd9da6d/modules/cf5df7f2-be4f-476e-979c-887027618490/lessons/13e85032-a45e-4213-b493-77b9814e9acc/concepts/44eae17d-bdab-4895-a8b9-236c9f38c381
+
+
 
 npm list --depth 0
 
@@ -46,7 +49,8 @@ To view dapp:
 http://localhost:8000
 
 Develop Server
-npm run server truffle test ./test/oracles.js
+npm run server 
+truffle test ./test/oracles.js
 
 Deploy
 To build dapp for prod: npm run dapp:prod
@@ -84,3 +88,113 @@ Deploy the contents of the ./dapp folder
 ├── webpack-dev-server@3.3.1
 └── webpack-node-externals@1.7.2
 
+===================
+PROJECT SPECIFICATION:
+
+Smart Contract Seperation
+
+	Smart Contract code is separated into multiple contracts:
+
+	1) FlightSuretyData.sol for data persistence
+	2) FlightSuretyApp.sol for app logic and oracles code
+
+Dapp Created and Used for Contract Calls
+
+	A Dapp client has been created and is used for triggering contract calls. Client can be launched with “npm run dapp” and is available at http://localhost:8000
+
+	Specific contract calls:
+
+	1) Passenger can purchase insurance for flight
+	2) Trigger contract to request flight status update
+
+
+Oracle Server Application
+
+	A server app has been created for simulating oracle behavior. Server can be launched with “npm run server”
+
+Operational status control is implemented in contracts
+
+	Students has implemented operational status control.
+
+Fail Fast Contract
+
+	Contract functions “fail fast” by having a majority of “require()” calls at the beginning of function body
+
+	_______________________
+
+	 UTILITY FUNCTIONS            :
+	 function isOperational() 
+                            public 
+                            pure 
+                            returns(bool) 
+
+	SMART CONTRACT FUNCTIONS	  :
+	1-function registerAirline
+                            (   
+                            )
+                            external
+                            pure
+                            returns(bool success, uint256 votes)
+	
+	2-function registerFlight
+                                (
+                                )
+                                external
+                                pure
+
+	3-function processFlightStatus
+                                (
+                                    address airline,
+                                    string memory flight,
+                                    uint256 timestamp,
+                                    uint8 statusCode
+                                )
+                                internal
+                                pure
+
+	4-function fetchFlightStatus
+                        (
+                            address airline,
+                            string flight,
+                            uint256 timestamp                            
+                        )
+                        external
+
+	5-function registerOracle
+                            (
+                            )
+                            external
+                            payable
+
+	
+	flightSuretyData:
+	methods:
+      { 'isOperational()': [Function],
+        'setOperatingStatus(bool)': [Function],
+        'authorizeCaller(address)': [Function],
+        'registerAirline()': [Function],
+        'buy()': [Function],
+        'creditInsurees()': [Function],
+        'pay()': [Function],
+        'fund()': [Function] },
+
+
+	flightSuretyApp:
+	methods:
+      { 'REGISTRATION_FEE()': [Function],
+        'isOperational()': [Function],
+        'registerAirline()': [Function],
+        'registerFlight()': [Function],
+        'fetchFlightStatus(address,string,uint256)': [Function],
+        'registerOracle()': [Function],
+        'getMyIndexes()': [Function],
+        'submitOracleResponse(uint8,address,string,uint256,uint8)': [Function] },
+
+
+		+++++++++++++++++++++++++++++
+		important notes:
+
+		FlightSuretyData must contain an AuthorizeCaller function
+		I advise you reviewing the Chapter 6 (Advanced Blockchain Concepts) -> Lesson 4 (Smart contract upgradability) -> All the concepts
+
+		The same for the Oracles, Lesson 5 reference them, and walk you through regarding implementing some essential functions and upgrade the tests

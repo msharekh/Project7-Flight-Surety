@@ -95,10 +95,10 @@ contract FlightSuretyData {
 
     function authorizeCaller
                             (
-                                address flightSuretyAppAddress
-                            ) 
+                                address caller
+                            )                              
                             external
-     {
+    {
         // operational = mode;
     }
    /**
