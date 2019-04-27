@@ -198,3 +198,22 @@ Fail Fast Contract
 		I advise you reviewing the Chapter 6 (Advanced Blockchain Concepts) -> Lesson 4 (Smart contract upgradability) -> All the concepts
 
 		The same for the Oracles, Lesson 5 reference them, and walk you through regarding implementing some essential functions and upgrade the tests
+
+
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        my understanding:
+
+        flitht surity :
+        airline register 
+        Airlineflithgts registered
+
+        fee registered
+        customer purchase flith and 
+
+        now after 
+        fetching flight 
+
+        orgacle work
+
+        and get the status and of delayd flith if any

@@ -111,10 +111,13 @@ contract FlightSuretyData {
     */   
     function registerAirline
                             (   
+                                address airlineAddress
                             )
                             external
                             pure
+                            returns(bytes32) 
     {
+        return 5;
     }
 
 
