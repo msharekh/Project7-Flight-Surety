@@ -13,7 +13,7 @@ contract FlightSuretyData {
     bool private operational = true;                                    // Blocks all state changes throughout the contract if false
 
 
-    mapping (address => uint256) private authorizedCallers              // store all authorized callers addresse
+    mapping (address => uint256) private authorizedCallers;             // store all authorized callers addresse
 
     /********************************************************************************************/
     /*                                       EVENT DEFINITIONS                                  */
